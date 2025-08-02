@@ -1,95 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qiddiya.Fit | Multilingual Fitness Hub</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Cairo', sans-serif; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Qiddiya Fit is your hub for sports, fitness, and healthy lifestyle inspiration. Read expert blog posts and explore our latest tips." />
+  <meta name="keywords" content="Qiddiya, fitness, sport, gym, health, blog, wellness, football, workout" />
+  <meta name="author" content="Qiddiya Fit Team" />
+  <title>Qiddiya Fit | Sports & Fitness Blog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
 </head>
-<body class="bg-gray-50 text-gray-900">
-
-  <header class="bg-white shadow sticky top-0 z-50">
-    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-blue-700">Qiddiya.Fit</h1>
-      <nav>
-        <ul class="flex space-x-4 items-center">
-          <li><a href="#home" class="hover:text-blue-600 font-semibold">Home</a></li>
-          <li><a href="#about" class="hover:text-blue-600 font-semibold">About</a></li>
-          <li><a href="#blog" class="hover:text-blue-600 font-semibold">Blog</a></li>
-          <li><a href="#contact" class="hover:text-blue-600 font-semibold">Contact</a></li>
-          <li>
-            <select class="text-sm border rounded p-1 bg-white">
-              <option>العربية</option>
-              <option selected>English</option>
-              <option>Français</option>
-              <option>中文</option>
-            </select>
-          </li>
-        </ul>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Qiddiya Fit</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#blog" class="hover:text-blue-600">Blog</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="home" class="container mx-auto px-4 py-12">
-    <section class="text-center mb-20">
-      <img src="https://images.unsplash.com/photo-1571019613914-85f342c41f1b" alt="Fitness" class="w-full max-h-96 object-cover rounded-xl mb-8 shadow-lg">
-      <h2 class="text-5xl font-extrabold mb-4 text-blue-700">Where Fitness Meets the Future</h2>
-      <p class="text-xl max-w-3xl mx-auto text-gray-700">Explore the latest in wellness, workouts, and health — in Arabic, English, French, and Chinese. Stay active. Stay Qiddiya.</p>
-    </section>
+  <section id="home" class="bg-cover bg-center h-[400px] text-white flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1550345332-09e3acdcfc00?auto=format&fit=crop&w=1350&q=80');">
+    <h2 class="text-4xl font-bold bg-black bg-opacity-50 p-4 rounded">Welcome to Qiddiya Fit</h2>
+  </section>
 
-    <section id="about" class="mb-20">
-      <h3 class="text-3xl font-bold mb-6 text-blue-700">About Us</h3>
-      <p class="text-lg leading-relaxed text-gray-800">Qiddiya.Fit is a multilingual platform dedicated to health and fitness enthusiasts inspired by Saudi Arabia's groundbreaking Qiddiya project. We aim to empower a healthier lifestyle across cultures with inclusive content and global perspectives.</p>
-    </section>
+  <section id="about" class="max-w-5xl mx-auto py-12 px-4">
+    <h3 class="text-3xl font-bold mb-4">About Us</h3>
+    <p class="text-lg leading-relaxed">
+      Qiddiya Fit is a premier blog focused on promoting fitness, sports excellence, and wellness. We provide expertly written articles to motivate and guide your fitness journey.
+    </p>
+  </section>
 
-    <section id="blog" class="mb-20">
-      <h3 class="text-3xl font-bold mb-6 text-blue-700">Latest Blog Posts</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-5">
-          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" class="w-full h-44 object-cover rounded-xl mb-4" alt="Workout Trends">
-          <h4 class="font-bold text-xl mb-2">Top Fitness Trends in 2025</h4>
-          <p class="text-sm text-gray-700">Explore what’s trending in workouts, gear, and training styles this year.</p>
-        </div>
-        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-5">
-          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c25" class="w-full h-44 object-cover rounded-xl mb-4" alt="Nutrition">
-          <h4 class="font-bold text-xl mb-2">Nutrition Tips for Busy Lifestyles</h4>
-          <p class="text-sm text-gray-700">Smart eating strategies for people on the go — stay energized and fit.</p>
-        </div>
-        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-5">
-          <img src="https://images.unsplash.com/photo-1600180758890-6b94519fdea3" class="w-full h-44 object-cover rounded-xl mb-4" alt="Qiddiya Athletes">
-          <h4 class="font-bold text-xl mb-2">How Qiddiya is Shaping Future Athletes</h4>
-          <p class="text-sm text-gray-700">Discover how Qiddiya is building a new generation of elite sports talent.</p>
-        </div>
+  <section id="blog" class="max-w-6xl mx-auto py-12 px-4">
+    <h3 class="text-3xl font-bold mb-8">Latest Blog Posts</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Blog cards -->
+      <div class="bg-white rounded shadow p-4">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80" class="rounded mb-4" alt="Gym Workout">
+        <h4 class="text-xl font-semibold mb-2">Top 10 Gym Exercises</h4>
+        <p class="text-sm text-gray-600">Build strength with our favorite beginner-to-advanced workouts.</p>
       </div>
-    </section>
+      <div class="bg-white rounded shadow p-4">
+        <img src="https://images.unsplash.com/photo-1594737625785-c3aa7f1f90aa?auto=format&fit=crop&w=800&q=80" class="rounded mb-4" alt="Yoga Pose">
+        <h4 class="text-xl font-semibold mb-2">Yoga Benefits for Mind & Body</h4>
+        <p class="text-sm text-gray-600">Explore how yoga can improve flexibility, reduce stress, and boost mood.</p>
+      </div>
+      <div class="bg-white rounded shadow p-4">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80" class="rounded mb-4" alt="Football Match">
+        <h4 class="text-xl font-semibold mb-2">Qiddiya Football Highlights</h4>
+        <p class="text-sm text-gray-600">Catch up on the latest football action and skills to practice.</p>
+      </div>
+      <!-- More blog posts below -->
+    </div>
+  </section>
 
-    <section id="contact">
-      <h3 class="text-3xl font-bold mb-6 text-blue-700 text-center">Contact Us</h3>
-      <form class="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
-        <div class="mb-6">
-          <label class="block mb-2 font-semibold">Your Name</label>
-          <input type="text" class="w-full border border-gray-300 p-3 rounded-xl" />
-        </div>
-        <div class="mb-6">
-          <label class="block mb-2 font-semibold">Email Address</label>
-          <input type="email" class="w-full border border-gray-300 p-3 rounded-xl" />
-        </div>
-        <div class="mb-6">
-          <label class="block mb-2 font-semibold">Your Message</label>
-          <textarea class="w-full border border-gray-300 p-3 rounded-xl h-32"></textarea>
-        </div>
-        <button class="bg-blue-700 text-white px-8 py-3 rounded-xl hover:bg-blue-800">Send Message</button>
+  <section id="contact" class="bg-blue-50 py-12 px-4">
+    <div class="max-w-xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border p-2 rounded" />
+        <input type="email" placeholder="Your Email" class="w-full border p-2 rounded" />
+        <textarea placeholder="Message" class="w-full border p-2 rounded"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
       </form>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="bg-white text-center py-6 mt-20 border-t">
-    <p class="text-sm text-gray-600">&copy; 2025 Qiddiya.Fit — All rights reserved. | Designed for a global healthy future</p>
+  <footer class="bg-gray-800 text-white text-center py-6">
+    &copy; 2025 Qiddiya Fit. All rights reserved.
   </footer>
-
 </body>
 </html>
